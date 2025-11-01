@@ -1,0 +1,9 @@
+# Transaction logs
+transactions.log
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
