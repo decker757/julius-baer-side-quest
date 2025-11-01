@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { writeFileSync, appendFileSync, existsSync } from 'fs';
-import { join } from 'path';
 
 // Configuration Management
 const config = {
