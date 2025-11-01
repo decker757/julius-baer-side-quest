@@ -170,7 +170,7 @@ class BankingClient {
       this.validateAccountId(accountId);
 
       const response = await this.client.get(`/accounts/validate/${accountId}`);
-      return response.data.valid;
+      return response.data.isValid;
     } catch (error) {
       console.error(`Account validation failed for ${accountId}:`, error.message);
       return false;
